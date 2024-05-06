@@ -1,0 +1,44 @@
+.section {
+  &.hidden {
+    .editions {
+      &-item {
+        transition: transform 0;
+        transform: translateX(-2000px);
+      }
+    }
+
+    h2 {
+      transition: opacity 0;
+      opacity: 0;
+    }
+
+    .dual,
+    .explore-info {
+      transition: column-gap 0s;
+      column-gap: 250%;
+    }
+
+    .video {
+      transition: transform 0s;
+      transform: scale(0);
+    }
+
+    .news,
+    .faq-item {
+      transition: transform 0s;
+      transform: translateX(-200%);
+    }
+  }
+}
+
+.editions {
+  &-item {
+    &:nth-child(2) {
+      transition-delay: 0.25s;
+    }
+
+    &:last-child {
+      transition-delay: 0.5s;
+    }
+  }
+}

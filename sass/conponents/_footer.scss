@@ -1,0 +1,136 @@
+.footer {
+  padding-top: 156px;
+  padding-bottom: 20px;
+  position: relative;
+
+  &::before {
+    @media screen and (max-width: 768px) {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 310px;
+      height: 174px;
+      top: 0;
+      right: 20%;
+      z-index: -1;
+      background: url(../images/footer2.png) no-repeat center/cover;
+    }
+    position: absolute;
+    content: "";
+    display: block;
+    width: 768px;
+    height: 439px;
+    top: 0;
+    right: 20%;
+    z-index: -1;
+    background: url(../images/footer.png) no-repeat center/cover;
+  }
+
+  &-top {
+    justify-content: space-between;
+  }
+
+  &-menu {
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+    // display: flex;
+    gap: 30px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    text-transform: uppercase;
+    transition: color 0.25s;
+
+    a {
+      color: rgba(255, 255, 255, 0.5);
+
+      &:hover {
+        color: $violet;
+      }
+    }
+  }
+
+  &-lang {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.9;
+    cursor: pointer;
+
+    span {
+      text-transform: uppercase;
+      color: $grey;
+      margin-right: 5px;
+    }
+
+    &__current {
+      color: $white;
+      text-transform: uppercase;
+    }
+
+    &__list {
+      position: relative;
+
+      &:hover {
+        .footer-lang__content {
+          visibility: visible;
+        }
+      }
+    }
+
+    &__content {
+      background: $dark;
+      border-radius: 6px;
+      padding: 10px;
+      position: absolute;
+      visibility: hidden;
+
+      &-item {
+        text-transform: uppercase;
+        font-weight: 500;
+        cursor: pointer;
+        transition: color 0.25s;
+
+        &:hover {
+          color: $violet;
+        }
+      }
+    }
+  }
+
+  &-info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: $grey;
+    margin-top: 50px;
+    margin-bottom: 38px;
+    // margin: 50px auto 38px auto;
+    // max-width: 50%;
+  }
+
+  &-icon img {
+    // text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &-year {
+    margin: 20px auto 13px auto;
+    // text-align: center;
+  }
+
+  &-year,
+  &-rights {
+    font-weight: 400;
+    line-height: 19px;
+    color: $grey;
+    text-align: center;
+
+    a {
+      color: $violet;
+      text-decoration: underline;
+    }
+  }
+}

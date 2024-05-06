@@ -1,0 +1,40 @@
+@import "../mixin/mixin";
+
+.description {
+  margin-top: 7%;
+  max-width: 540px;
+  animation: move 1s ease-in-out;
+
+  &-title {
+    h1 {
+      font-weight: 600;
+      font-size: 100px;
+      line-height: 100px;
+    }
+  }
+
+  &-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: $sea;
+    margin-top: 26px;
+  }
+
+  &-button {
+    @include button;
+    @include hoverViolet;
+    margin-top: 36px;
+  }
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    transform: translateX(-400px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
