@@ -1,17 +1,10 @@
 @import "./base/base";
-@import "./utils/variables";
 @import "./base/container";
+@import "./utils/variables";
 @import "./animation/animation";
 @import "./mixin/mixin";
 
-@import "./conponents/header";
-@import "./conponents/hero";
-@import "./conponents/edition";
-@import "./conponents/dual";
-@import "./conponents/video";
-@import "./conponents/explore";
-@import "./conponents/news";
-@import "./conponents/faq";
-@import "./conponents/footer";
-
-@import "./conponents/modal";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/edition";
+@import "./components/dual";

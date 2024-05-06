@@ -1,1 +1,185 @@
-/*# sourceMappingURL=main.css.map */
+.section-main {
+  padding-top: 40px;
+  position: relative;
+  max-width: 1920px;
+  min-height: 700px;
+  margin: 0 auto;
+}
+.section-main::after, .section-main::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  content: "";
+  width: 1363px;
+  height: 764px;
+}
+.section-main::after {
+  background: url(../../images/snow.gif) no-repeat center/cover;
+  opacity: 0.1;
+}
+.section-main::before {
+  background: url(../../images/bg.png) no-repeat center/cover;
+}
+
+.header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-menu {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-menu__button {
+  width: 25px;
+  height: 16px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: width 0.25s;
+  transition: width 0.25s;
+}
+.header-menu__button span {
+  width: 25px;
+  height: 2px;
+  background: #fff;
+  position: relative;
+  display: block;
+}
+.header-menu__button span::after, .header-menu__button span::before {
+  display: block;
+  content: "";
+  width: 12px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  -webkit-transition: width 0.25s;
+  transition: width 0.25s;
+}
+.header-menu__button span::after {
+  top: 5px;
+}
+.header-menu__button span::before {
+  width: 15px;
+  top: 10px;
+}
+.header-menu__list {
+  margin-left: 50px;
+  z-index: -1;
+}
+.header-menu__list ul {
+  -webkit-column-gap: 24px;
+     -moz-column-gap: 24px;
+          column-gap: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.9;
+  text-transform: uppercase;
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+  opacity: 0;
+}
+.header-menu__link {
+  position: relative;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.header-menu__link:hover, .header-menu__link:focus {
+  color: #8856d9;
+}
+.header-menu__link.lang {
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header-menu__link.lang:hover .header-menu__languages, .header-menu__link.lang:focus .header-menu__languages {
+  display: block;
+}
+.header-menu__link.lang svg {
+  width: 12px;
+  height: 12px;
+  fill: #fff;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-left: 8px;
+}
+.header-menu__languages {
+  padding: 10px 15px;
+  border-radius: 6px;
+  background: #30373f;
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+.header-menu__language {
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.header-menu__language:hover, .header-menu__language:focus {
+  color: #8856d9;
+}
+.header.opened .header-menu__button span {
+  width: 12px;
+}
+.header.opened .header-menu__button span::after {
+  width: 12px;
+}
+.header.opened .header-menu__button span::before {
+  width: 12px;
+}
+.header.opened .header-menu__list {
+  z-index: 1;
+}
+.header.opened .header-menu__list ul {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.25s;
+  transition: opacity 0.2s, -webkit-transform 0.25s;
+  transition: opacity 0.2s, transform 0.25s;
+  transition: opacity 0.2s, transform 0.25s, -webkit-transform 0.25s;
+}
+.header-timer {
+  margin-left: auto;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  .header-timer {
+    display: none;
+  }
+}
+.header-timer span {
+  font-weight: 400;
+  line-height: 19px;
+  color: #8c96a0;
+}
+.header-timer__values {
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+.header-timer__item {
+  color: #a9c7c7;
+  text-align: center;
+}
+.header-timer__item-value {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  min-width: 55px;
+  text-align: center;
+}
+.header-timer-info {
+  text-align: center;
+  font-weight: 400;
+}/*# sourceMappingURL=main.css.map */
