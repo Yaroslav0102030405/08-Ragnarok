@@ -1,6 +1,6 @@
+@import "./utils/variables";
 @import "./base/base";
 @import "./base/container";
-@import "./utils/variables";
 @import "./animation/animation";
 @import "./mixin/mixin";
 
@@ -8,3 +8,10 @@
 @import "./components/hero";
 @import "./components/edition";
 @import "./components/dual";
+@import "./components/explore";
+@import "./components/edition";
+@import "./components/news";
+@import "./components/faq";
+@import "./components/footer";
+
+@import "./components/modal";
