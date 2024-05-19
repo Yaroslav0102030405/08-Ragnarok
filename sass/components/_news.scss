@@ -1,18 +1,27 @@
 .swiper {
   &-button {
-    position: absolute;
-    top: 55%;
-    transform: translateY(-50%);
-    width: 60px;
-    height: 60px;
-    background: #8c96a0;
-    border-radius: 6px;
+    @media screen and (min-width: 768px) {
+      width: 60px;
+      height: 60px;
+      background: #8c96a0;
+      border-radius: 6px;
+    }
+    // position: absolute;
+    // top: 55%;
+    // transform: translateY(-50%);
+    // width: 60px;
+    // height: 60px;
+    // background: #8c96a0;
+    // border-radius: 6px;
     z-index: 9;
     cursor: pointer;
     transition: background 0.25s;
 
     &:hover {
-      background: $violet;
+      @media screen and (min-width: 768px) {
+        background: $violet;
+      }
+      // background: $violet;
     }
 
     svg {
