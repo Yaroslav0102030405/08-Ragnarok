@@ -173,7 +173,7 @@ h2 {
 }
 @media screen and (max-width: 768px) {
   .section-main::before {
-    background: url(../../images/mob-bg.png) no-repeat center/cover;
+    background: url(../../images/tab-bg.png) no-repeat center/cover;
   }
 }
 @media screen and (min-width: 768px) {
