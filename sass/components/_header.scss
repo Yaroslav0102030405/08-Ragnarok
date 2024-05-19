@@ -24,7 +24,16 @@
     }
 
     &::before {
-      background: url(../../images/bg.png) no-repeat center/cover;
+      @media screen and (max-width: 768px) {
+        background: url(../../images/mob-bg.png) no-repeat center/cover;
+      }
+      @media screen and (min-width: 768px) {
+        background: url(../../images/tab-bg.png) no-repeat center/cover;
+      }
+
+      @media screen and (min-width: 1420px) {
+        background: url(../../images/bg.png) no-repeat center/cover;
+      }
     }
   }
 }
@@ -33,6 +42,7 @@
   align-items: center;
 
   &-menu {
+    display: flex;
     align-items: center;
 
     &__button {

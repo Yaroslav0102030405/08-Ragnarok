@@ -1,5 +1,7 @@
 .container-2 {
-  width: 700px;
+  @media screen and (min-width: 768px) {
+    width: 700px;
+  }
 }
 
 .violet {
@@ -93,14 +95,17 @@
     }
   }
   &-info {
-    // @media screen and (max-width: 768px) {
-    //   flex-wrap: wrap;
-    // }
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
     margin-top: 96px;
     column-gap: 14%;
     transition: columb-gap 0.5s;
 
     &.reverse {
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
       flex-direction: row-reverse;
 
       .explore {
@@ -109,7 +114,6 @@
         }
 
         &-description {
-          //   text-align: right;
           text-align: left;
         }
 
@@ -130,6 +134,9 @@
     justify-content: end;
 
     &__wrap {
+      @media screen and (max-width: 768px) {
+        height: 138px;
+      }
       width: 300px;
       height: 300px;
       border-radius: 12px;
@@ -151,7 +158,10 @@
       }
 
       img {
-        max-width: unset;
+        @media screen and (min-width: 768px) {
+          max-width: unset;
+        }
+        // max-width: unset;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -159,6 +169,9 @@
     }
   }
   &-description {
+    @media screen and (max-width: 768px) {
+      margin-top: 30px;
+    }
     // min-width: max-content;
     width: 50%;
 
@@ -172,6 +185,9 @@
       display: none;
       max-width: 400px;
       // height: 400px;
+      @media screen and (max-width: 768px) {
+        font-size: 10px;
+      }
 
       &.active {
         display: flex;

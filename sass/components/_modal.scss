@@ -90,6 +90,9 @@
 }
 
 .form {
+  @media screen and (max-width: 768px) {
+    width: 280px;
+  }
   margin-top: 17px;
   display: flex;
   flex-wrap: wrap;
