@@ -3,8 +3,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 32px;
-    height: 32px;
+    width: 60px;
+    height: 60px;
     background: #8c96a0;
     border-radius: 6px;
     z-index: 9;
@@ -15,13 +15,13 @@
       background: $violet;
     }
 
-    // svg {
-    //   fill: #fff;
-    // }
+    svg {
+      fill: #fff;
+    }
 
-    // &-prev {
-    //   left: 10%;
-    // }
+    &-prev {
+      left: 10%;
+    }
 
     &-next {
       right: 10%;
@@ -32,36 +32,6 @@
     }
   }
 }
-
-// .swiper-button-prev:after,
-// .swiper-rtl .swiper-button-next:after {
-//   content: "prev";
-// }
-
-.swiper-button-next:after,
-.swiper-rtl .swiper-button-prev:after {
-  content: unset;
-}
-
-.swiper-button-prev:after,
-.swiper-rtl .swiper-button-prev:after {
-  content: "";
-}
-
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  font-family: swiper-icons;
-  font-size: var(--swiper-navigation-size);
-  text-transform: none !important;
-  letter-spacing: 0;
-  font-variant: initial;
-  line-height: 1;
-}
-
-// .swiper-button-prev:after,
-// .swiper-rtl .swiper-button-next:after {
-//   content: "prev";
-// }
 
 .news {
   margin-top: 32px;
