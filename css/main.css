@@ -1379,14 +1379,4 @@ h2 {
   visibility: visible;
   opacity: 1;
   z-index: 998;
-}
-
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  font-family: swiper-icons;
-  font-size: var(--swiper-navigation-size) !important;
-  text-transform: none !important;
-  letter-spacing: 0;
-  font-variant: initial;
-  line-height: 1;
 }/*# sourceMappingURL=main.css.map */
