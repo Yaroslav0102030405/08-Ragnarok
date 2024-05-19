@@ -172,6 +172,12 @@ h2 {
   opacity: 0.1;
 }
 @media screen and (max-width: 768px) {
+  .section-main::after {
+    background: url(../../images/snow.gif) no-repeat center/cover;
+    opacity: 0.1;
+  }
+}
+@media screen and (max-width: 768px) {
   .section-main::before {
     background: url(../../images/tab-bg.png) no-repeat center/cover;
   }

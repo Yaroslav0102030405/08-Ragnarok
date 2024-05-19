@@ -19,6 +19,11 @@
     }
 
     &::after {
+      @media screen and (max-width: 768px) {
+        background: url(../../images/snow.gif) no-repeat center/cover;
+        opacity: 0.1;
+      }
+
       background: url(../../images/snow.gif) no-repeat center/cover;
       opacity: 0.1;
     }
