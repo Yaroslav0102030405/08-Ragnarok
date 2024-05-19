@@ -14,7 +14,8 @@
     // background: #8c96a0;
     // border-radius: 6px;
     z-index: 9;
-    cursor: pointer;
+    // cursor: pointer;
+    cursor: url("../../images/cursor2.png"), auto;
     transition: background 0.25s;
 
     &:hover {

@@ -6,6 +6,7 @@ body {
   font-size: 16px;
   padding: 0;
   margin: 0;
+  cursor: url("../../images/cursor1.png"), auto;
 }
 
 :root {
@@ -77,6 +78,14 @@ h2 {
   opacity: 1;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
+}
+
+a {
+  cursor: url("../../images/cursor2.png"), auto;
+}
+
+button {
+  cursor: url("../../images/cursor2.png"), auto;
 }
 
 .container {
@@ -214,6 +223,7 @@ h2 {
   z-index: 1;
   -webkit-transition: width 0.25s;
   transition: width 0.25s;
+  cursor: url("../../images/cursor2.png"), auto;
 }
 .header-menu__button span {
   width: 25px;
@@ -951,7 +961,7 @@ h2 {
 
 .swiper-button {
   z-index: 9;
-  cursor: pointer;
+  cursor: url("../../images/cursor2.png"), auto;
   -webkit-transition: background 0.25s;
   transition: background 0.25s;
 }
@@ -1121,9 +1131,9 @@ h2 {
   font-size: 17px;
   line-height: 1.2;
   color: #fff;
-  cursor: pointer;
   border-bottom: 2px solid #8856d9;
   padding-bottom: 8px;
+  cursor: url("../../images/cursor2.png"), auto;
 }
 .faq-item__header span {
   background: -webkit-gradient(linear, left bottom, left top, from(#8c96a0), to(#8c96a0)), -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2)));

@@ -54,9 +54,11 @@
       width: 25px;
       height: 16px;
       cursor: pointer;
+
       position: relative;
       z-index: 1;
       transition: width 0.25s;
+      cursor: url("../../images/cursor2.png"), auto;
 
       span {
         width: 25px;

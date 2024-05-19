@@ -6,6 +6,7 @@ body {
   padding: 0;
   margin: 0;
   // overflow: hidden;
+  cursor: url("../../images/cursor1.png"), auto;
 }
 
 :root {
@@ -70,4 +71,12 @@ h2 {
   text-align: center;
   opacity: 1;
   transition: opacity 0.5s;
+}
+
+a {
+  cursor: url("../../images/cursor2.png"), auto;
+}
+
+button {
+  cursor: url("../../images/cursor2.png"), auto;
 }
