@@ -596,6 +596,13 @@ h2 {
   -webkit-animation: gravitation 1.5s linear infinite alternate;
           animation: gravitation 1.5s linear infinite alternate;
 }
+@media screen and (max-width: 768px) {
+  .dual-img img {
+    margin-top: 50px;
+    width: 250px;
+    height: 220px;
+  }
+}
 .dual-img::before {
   content: "";
   display: block;
@@ -1006,6 +1013,7 @@ h2 {
   color: #8856d9;
 }
 .news-item__date {
+  margin-left: auto;
   font-weight: 400;
   font-size: 10px;
   line-height: 1.7;
@@ -1072,6 +1080,11 @@ h2 {
 .section-faq {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.section-faq h2 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .faq-items {

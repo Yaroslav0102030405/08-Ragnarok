@@ -3,6 +3,11 @@
   padding-bottom: 80px;
 }
 
+.section-faq h2 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
 .faq {
   &-items {
     flex-direction: column;

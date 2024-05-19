@@ -4,6 +4,7 @@
 }
 
 .dual {
+  // width: 250px;
   flex-wrap: wrap;
   column-gap: 5%;
   margin-top: 20px;
@@ -30,7 +31,6 @@
     }
 
     &__price {
-      //   display: inline-block;
       font-weight: 700;
       font-size: 30px;
       line-height: 36px;
@@ -38,7 +38,6 @@
 
     &__button {
       @include button(#ff4136);
-      //   display: inline-block;
       text-align: center;
     }
   }
@@ -51,6 +50,12 @@
     position: relative;
 
     img {
+      @media screen and (max-width: 768px) {
+        margin-top: 50px;
+        width: 250px;
+        height: 220px;
+      }
+
       max-width: fit-content;
       animation: gravitation 1.5s linear infinite alternate;
     }
@@ -81,6 +86,5 @@
 }
 
 .dual-three {
-  //   justify-content: space-around;
   gap: 20px;
 }
