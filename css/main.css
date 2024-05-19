@@ -982,6 +982,16 @@ h2 {
           transform: scale(-1, 1);
 }
 
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  color: #fff;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  color: #fff;
+}
+
 .news {
   margin-top: 32px;
   -webkit-transition: -webkit-transform 0.5s;

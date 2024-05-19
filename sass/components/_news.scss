@@ -42,6 +42,16 @@
   }
 }
 
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  color: #fff;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  color: #fff;
+}
+
 .news {
   margin-top: 32px;
   transition: transform 0.5s;
