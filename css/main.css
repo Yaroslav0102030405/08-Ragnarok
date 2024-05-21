@@ -6,7 +6,7 @@ body {
   font-size: 16px;
   padding: 0;
   margin: 0;
-  cursor: url("../../images/cursor1.png"), auto;
+  cursor: url("../../images/6.png"), auto;
 }
 
 :root {
@@ -81,11 +81,7 @@ h2 {
 }
 
 a {
-  cursor: url("../../images/cursor2.png"), auto;
-}
-
-button {
-  cursor: url("../../images/cursor2.png"), auto;
+  cursor: url("../../images/7.png"), auto;
 }
 
 .container {
@@ -223,7 +219,7 @@ button {
   z-index: 1;
   -webkit-transition: width 0.25s;
   transition: width 0.25s;
-  cursor: url("../../images/cursor2.png"), auto;
+  cursor: url("../../images/7.png"), auto;
 }
 .header-menu__button span {
   width: 25px;
@@ -398,7 +394,7 @@ button {
   line-height: 19px;
   color: #fff;
   display: inline-block;
-  cursor: pointer;
+  cursor: url("../../images/7.png"), auto;
   text-transform: uppercase;
   -webkit-transition: backround 0.25s;
   transition: backround 0.25s;
@@ -516,7 +512,7 @@ button {
   line-height: 19px;
   color: #fff;
   display: inline-block;
-  cursor: pointer;
+  cursor: url("../../images/7.png"), auto;
   text-transform: uppercase;
   -webkit-transition: backround 0.25s;
   transition: backround 0.25s;
@@ -585,7 +581,7 @@ button {
   line-height: 19px;
   color: #fff;
   display: inline-block;
-  cursor: pointer;
+  cursor: url("../../images/7.png"), auto;
   text-transform: uppercase;
   -webkit-transition: backround 0.25s;
   transition: backround 0.25s;
@@ -703,7 +699,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   color: #fff;
-  cursor: pointer;
+  cursor: url("../../images/7.png"), auto;
   margin: 28px auto 0 auto;
   -webkit-transition: backround 0.25s;
   transition: backround 0.25s;
@@ -785,7 +781,7 @@ button {
   height: 100%;
   position: absolute;
   opacity: 0;
-  cursor: pointer;
+  cursor: url("../../images/7.png"), auto;
   z-index: 2;
 }
 .explore-switch__checkbox input:checked + span {
@@ -946,7 +942,7 @@ button {
   line-height: 19px;
   color: #fff;
   display: inline-block;
-  cursor: pointer;
+  cursor: url("../../images/7.png"), auto;
   text-transform: uppercase;
   -webkit-transition: backround 0.25s;
   transition: backround 0.25s;
@@ -961,7 +957,7 @@ button {
 
 .swiper-button {
   z-index: 9;
-  cursor: url("../../images/cursor2.png"), auto;
+  cursor: url("../../images/7.png"), auto;
   -webkit-transition: background 0.25s;
   transition: background 0.25s;
 }
@@ -1133,7 +1129,7 @@ button {
   color: #fff;
   border-bottom: 2px solid #8856d9;
   padding-bottom: 8px;
-  cursor: url("../../images/cursor2.png"), auto;
+  cursor: url("../../images/7.png"), auto;
 }
 .faq-item__header span {
   background: -webkit-gradient(linear, left bottom, left top, from(#8c96a0), to(#8c96a0)), -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2)));
@@ -1378,7 +1374,7 @@ button {
   line-height: 19px;
   color: #fff;
   display: inline-block;
-  cursor: pointer;
+  cursor: url("../../images/7.png"), auto;
   text-transform: uppercase;
   -webkit-transition: backround 0.25s;
   transition: backround 0.25s;

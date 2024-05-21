@@ -8,7 +8,8 @@
   line-height: 19px;
   color: $white;
   display: inline-block;
-  cursor: pointer;
+  // cursor: pointer;
+  cursor: url("../../images/7.png"), auto;
   text-transform: uppercase;
   transition: backround 0.25s;
 }
