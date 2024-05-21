@@ -76,3 +76,19 @@ h2 {
 a {
   cursor: url("../../images/7.png"), auto;
 }
+
+add scrollbar .window {
+  overflow: auto;
+  // border: 1px solid #fff;
+  border-radius: 5px 0 0 5px;
+}
+
+::-webkit-scrollbar {
+  background: #a9c7c7;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #8856d9;
+  // border: 1px solid #fff;
+}

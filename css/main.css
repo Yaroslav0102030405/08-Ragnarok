@@ -84,6 +84,20 @@ a {
   cursor: url("../../images/7.png"), auto;
 }
 
+add scrollbar .window {
+  overflow: auto;
+  border-radius: 5px 0 0 5px;
+}
+
+::-webkit-scrollbar {
+  background: #a9c7c7;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #8856d9;
+}
+
 .container {
   margin: 0 auto;
   padding-left: 10px;
